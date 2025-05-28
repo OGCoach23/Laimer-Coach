@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SV München Laim e.V. - Handball</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            height: 80px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #000;
+        }
+        .hero {
+            background-color: #f4f4f4;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+        }
+        .btn {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        section {
+            padding: 40px 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="SV München Laim e.V." class="logo">
+        <nav>
+            <ul>
+                <li><a href="#home">Startseite</a></li>
+                <li><a href="#training">Trainingszeiten</a></li>
+                <li><a href="#team">Teaminformationen</a></li>
+                <li><a href="#concepts">Konzepte</a></li>
+                <li><a href="#exercises">Übungsbibliothek</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+                <li><a href="#onboarding">Onboarding</a></li>
+                <li><a href="#news">News</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Willkommen bei SV München Laim e.V.</h1>
+        <p>Entdeckt unser Handballtraining und werdet Teil unseres Teams!</p>
+        <button class="btn">Jetzt Probetraining buchen</button>
+        <button class="btn">Newsletter abonnieren</button>
+    </section>
+
+    <section id="training">
+        <h2>Trainingszeiten</h2>
+        <!-- Hier kommen die Trainingszeiten -->
+    </section>
+
+    <section id="team">
+        <h2>Teaminformationen</h2>
+        <!-- Hier kommen die Teaminformationen -->
+    </section>
+
+    <section id="concepts">
+        <h2>Konzepte</h2>
+        <!-- Hier kommen die Konzepte -->
+    </section>
+
+    <section id="exercises">
+        <h2>Übungsbibliothek</h2>
+        <!-- Hier kommt die Übungsbibliothek -->
+    </section>
+
+    <section id="onboarding">
+        <h2>Onboarding</h2>
+        <!-- Hier kommen die Onboarding-Informationen -->
+    </section>
+
+    <section id="news">
+        <h2>News</h2>
+        <!-- Hier kommen die News -->
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Nachricht:</label>
+            <textarea id="message" name="message"></textarea><br><br>
+            <button type="submit" class="btn">Senden</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 SV München Laim e.V. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
