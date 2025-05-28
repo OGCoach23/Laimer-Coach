@@ -61,6 +61,19 @@
             text-align: center;
             padding: 20px;
         }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #007BFF;
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -89,7 +102,20 @@
 
     <section id="training">
         <h2>Trainingszeiten</h2>
-        <!-- Hier kommen die Trainingszeiten -->
+        <table>
+            <tr>
+                <th>Tag</th>
+                <th>Uhrzeit</th>
+            </tr>
+            <tr>
+                <td>Montag</td>
+                <td>14:00 - 16:00 Uhr</td>
+            </tr>
+            <tr>
+                <td>Dienstag</td>
+                <td>18:00 - 20:00 Uhr</td>
+            </tr>
+        </table>
     </section>
 
     <section id="team">
